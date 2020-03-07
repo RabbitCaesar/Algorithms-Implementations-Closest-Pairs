@@ -15,7 +15,7 @@ Two algorithms will be implemented here:
     1) A brute force approach determines the distance between every pair of points first 
        and then find the points with the closest distance.
     
-    2) An enhanced algorithm
+    2) An enhanced algorithm that
 
        - Sorts all points according to coordinates;
 
@@ -23,14 +23,14 @@ Two algorithms will be implemented here:
 
        - Recursively finds the smallest distances in both subarrays;
 
-       - Take the minimum of two smallest distances;
+       - Takes the minimum of two smallest distances;
 
-       - Create an array strip[] that stores all points which are at most d distance away 
+       - Creates an array strip[] that stores all points which are at most d distance away 
          from the middle line dividing the two sets;
 
-       - Find the smallest distance in strip[];
+       - Finds the smallest distance in strip[];
 
-       - Find the points with the closest distance.
+       - Finds the points with the closest distance.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
