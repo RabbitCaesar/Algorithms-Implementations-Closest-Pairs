@@ -12,7 +12,8 @@ This program will find the closest pair of points in a set of n points.
 
 Two algorithms will be implemented here:
 
-    1) A brute force approach determines the distance between every pair of points first and then find the points with the closest distance.
+    1) A brute force approach determines the distance between every pair of points first 
+       and then find the points with the closest distance.
     
     2) An enhanced algorithm
 
@@ -24,7 +25,8 @@ Two algorithms will be implemented here:
 
        - Take the minimum of two smallest distances;
 
-       - Create an array strip[] that stores all points which are at most d distance away from the middle line dividing the two sets;
+       - Create an array strip[] that stores all points which are at most d distance away 
+         from the middle line dividing the two sets;
 
        - Find the smallest distance in strip[];
 
